@@ -11,6 +11,7 @@
 		DD1097BC2B45CB6B00FA8296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1097BB2B45CB6B00FA8296 /* ContentView.swift */; };
 		DD1097BE2B45CB6C00FA8296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1097BD2B45CB6C00FA8296 /* Assets.xcassets */; };
 		DD1097C12B45CB6C00FA8296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1097C02B45CB6C00FA8296 /* Preview Assets.xcassets */; };
+		DD1097C92B45CB8F00FA8296 /* InAppNotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1097C82B45CB8F00FA8296 /* InAppNotificationExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD1097BB2B45CB6B00FA8296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD1097BD2B45CB6C00FA8296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1097C02B45CB6C00FA8296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD1097C82B45CB8F00FA8296 /* InAppNotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppNotificationExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DD1097B82B45CB6B00FA8296 /* InAppNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				DD1097C72B45CB7400FA8296 /* Helpers */,
 				DD1097B92B45CB6B00FA8296 /* InAppNotificationsApp.swift */,
 				DD1097BB2B45CB6B00FA8296 /* ContentView.swift */,
 				DD1097BD2B45CB6C00FA8296 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DD1097C02B45CB6C00FA8296 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD1097C72B45CB7400FA8296 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD1097C82B45CB8F00FA8296 /* InAppNotificationExtension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DD1097BC2B45CB6B00FA8296 /* ContentView.swift in Sources */,
 				DD1097BA2B45CB6B00FA8296 /* InAppNotificationsApp.swift in Sources */,
+				DD1097C92B45CB8F00FA8296 /* InAppNotificationExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
